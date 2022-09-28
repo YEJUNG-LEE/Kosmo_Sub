@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Table ]*/
+
+.limiter {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+.container-table100 {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+.wrap-table100 {
+  width: 1170px;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Table ]*/
+.table100 {
+  background-color: #fff;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  font-weight: unset;
+  padding-right: 10px;
+}
+
+.column1 {
+  width: 13%;
+  padding-left: 40px;
+}
+
+.column2 {
+  width: 28%;
+}
+
+.column3 {
+  width: 28%;
+}
+
+.column4 {
+  width: 19%;
+}
+
+.column5 {
+  width: 12%;
+}
+
+.table100-head th {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.table100-body tbody {
+	box-sizing: content-box;
+}
+.table100-body tr {
+	box-sizing: content-box;
+}
+.table100-body td {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/*==================================================================
+[ Fix header ]*/
+.table100 {
+  position: relative;
+  padding-top: 60px;
+}
+
+.table100-head {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.table100-body {
+  max-height: 800px;
+  overflow: auto;
+}
+
+
+/*==================================================================
+[ Ver1 ]*/
+
+.table100.ver1 th {
+	font-family: Lato-Bold;
+	font-size: 18px;
+	color: #fff;
+	line-height: 1.4;
+	text-align: center;
+	background-color: #000000;
+}
+
+.row100 {
+	background-color: white;
+	cursor: pointer;
+	border-style: solid;
+	border-color: #c2c2c2;
+	border-width: 0px 1px 1px 1px;
+	text-align: center;
+	outline: none;
+	font-size: 15px;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+.row100:hover{
+	background-color: #c2c2c2;
+}
+.table100.ver1 td {
+	cursor: pointer;
+	text-align: center;
+	outline: none;
+	font-size: 15px;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+/*
+.table100.ver1 td {
+  font-family: Lato-Regular;
+  font-size: 15px;
+  color: #808080;
+  line-height: 1.4;
+}
+.table100.ver1 .table100-body tr:nth-child(even) {
+  background-color: #f8f6ff;
+}
+*/
+
+/*---------------------------------------------*/
+
+.table100.ver1 {
+  overflow: hidden;
+}
+
+

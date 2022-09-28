@@ -1,0 +1,32 @@
+# 박성진 담당
+# member section
+meLogin=shopping.member.controller.MemberLoginController
+meLogout=shopping.member.controller.MemberLogoutController
+meInsert=shopping.member.controller.MemberInsertController
+meUpdate=shopping.member.controller.MemberUpdateController
+meDelete=shopping.member.controller.MemberDeleteController
+#meDetail=shopping.member.controller.MemberDetailController
+meList=shopping.member.controller.MemberListController
+meInfo=shopping.member.controller.MemberInfoController
+meMyinfo=shopping.member.controller.MemberMyinfoController
+# product section
+productInsert=shopping.product.controller.ProductInsertController
+# admin section
+adLogin=shopping.admin.controller.AdminLoginController
+adLogout=shopping.admin.controller.AdminLogoutController
+# 이예중 담당
+main=shopping.common.controller.MainController
+# product section
+prInsert=shopping.product.controller.ProductInsertController
+prUpdate=shopping.product.controller.ProductUpdateController
+prDelete=shopping.product.controller.ProductDeleteController
+prDetail=shopping.product.controller.ProductDetailController
+prList=shopping.product.controller.ProductListController
+# mall section
+maInsert=shopping.mall.controller.MallInsertController
+maNext=shopping.mall.controller.MallNextController
+maList=shopping.mall.controller.MallListController
+maDelete=shopping.mall.controller.MallDeleteController
+maPlus=shopping.mall.controller.MallPlusController
+maMinus=shopping.mall.controller.MallMinusController
+maAdd=shopping.mall.controller.MallAddController
